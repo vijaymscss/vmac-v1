@@ -26,7 +26,7 @@ const MacHero = () => {
       </div>
 
       <div className={`my-10 rounded-xl transition-all duration-1200 delay-1000 transform ${isVisible ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-8 scale-95"} hover:scale-105 hover:shadow-2xl`}>
-        <video ref={videoRef} src='/videos/mac-hero.mp4' className='rounded-4xl transition-all duration-500 hover:brightness-110' autoPlay loop muted playsInline />
+        <video ref={videoRef} src='https://www.apple.com/assets-www/en_WW/mac/welcome/372dcdc7b_medium.mp4' className='rounded-4xl transition-all duration-500 hover:brightness-110' autoPlay loop muted playsInline />
       </div>
     </div>
   );
